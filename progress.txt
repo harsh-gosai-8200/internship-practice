@@ -1,0 +1,1653 @@
+--Backend
+ -spring rest apis
+ -RestController for web api request
+ -learn and differentiate @RequestMapping, @PathVariable, @RequestBody, @Requestparam anotation
+ -Exception handling for api request, Globle exception handling
+
+--Frontend
+ -state and event in react
+ -learn how to use event in components via diferent method
+ -learn useState use case and its working, and rerendering
+ -api and its basic 
+ -making http requests
+ -child to parent communication in react
+
+--Require support
+ -None
+
+
+
+---Daily Progress(02/02/2026)---
+
+--Todays Progress
+-Backnd :
+spring rest apis
+RestController for web api request
+learn and differentiate @RequestMapping, @PathVariable, @RequestBody, @Requestparam anotation
+Exception handling for api request, Globle exception handling
+-Frontend :
+state and event in react
+learn how to use event in components via diferent method
+learn useState use case and its working, and rerendering
+api and its basic 
+making http requests
+child to parent communication in react
+
+--Code Practice / Programs Implemented
+-Backend :
+create demo springboot project to learn rest api though RestController and perform operation to retrive or send data from java pojo to json and also in reverse also handeling exceptions for rest apis
+-Frontend :
+create simple react project to demonstrate event and state where user can add random animal images by clicking button
+work on project to practice api in react and child to parent communication(ongoing)  
+
+--Next target
+-Backend : continue rest CRUD api module
+-Frontend : complete apis in react module and start form handeling module
+
+--Require support
+None
+
+--------------------------------------------------------------------------------------------------------------
+03/02/2026
+--Backend
+ -spring rest apis continued
+ -RestController for web api request with get, post, put, patch, delete,
+ -learn and differentiate @RequestMapping, @PathVariable, @RequestBody, @Requestparam anotation
+ -using thoes concepts create project to perform CRUD operation
+
+--Frontend
+ -complete api with react module 
+ -create basic react project for practice api e=with react module 
+ -start form handeling module 
+ -insertion, removal, modifying, chaining elements and properties
+ -different scenario of communication between child and parant for above operations 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(03/02/2026)---
+
+--Todays Progress
+-Backnd :
+spring rest apis ongoing
+RestController for web api request with get, post, put, patch, delete,
+learn and differentiate @RequestMapping, @PathVariable, @RequestBody, @Requestparam anotation
+using thoes concepts create project to perform CRUD operation
+-Frontend :
+complete api with react module 
+complete basic react project for practice for api with react module 
+start form handeling module 
+insertion, removal, modifying, chaining elements and properties
+different scenario of communication between child and parant for above operations
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for performing CRUD operations with database via EntityManager repository and use differnt request mapping like get, post, put, delete, etc. to interact in web and use different annotations for accessing data from url and requests 
+-Frontend :
+complete react project to practice axios api and child to parant communication where child component send request dat to parent and them operation performed (project is image search engine where we serch image and via api get requested data)
+
+--Next target
+-Backend : spring rest security
+-Frontend : complete form handeling module and start data persistance with api requests
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+04/02/2026
+--Backend
+ -spring rest apis completed
+ -perform all the crud operation via spring data jpa in which learn jpaRepository for database operations
+ -learn spring data rest dependency and its implementation to reduce boilerplate code of controller and service
+ -learn openAPI and swagger for api documentation and for good ui
+ -started spring rest api security module : in which learn about basic configuration, restriction url basedon role(statically defined user-role, database stored user-role), spring security flow of filters
+
+--Frontend
+ -complete form handeling module
+ -adding element start/end, removing, modifying element for changing state
+ -create project using form handeling and above concepts in which perform crud operation to demonstrate state and event use with form handelling
+
+--Require support
+ -None
+
+
+
+---Daily Progress(04/02/2026)---
+
+--Todays Progress
+-Backnd :
+spring rest apis completed
+perform all the crud operation via spring data jpa in which learn jpaRepository for database operations
+learn spring data rest dependency and its implementation to reduce boilerplate code of controller and service
+learn openAPI and swagger for api documentation and for good ui
+started spring rest api security module : in which learn about basic configuration, restriction url basedon role(statically defined user-role, database stored user-role), spring security flow of filters
+-Frontend :
+complete form handeling module
+adding element start/end, removing, modifying element for changing state
+create project using form handeling and above concepts in which perform crud operation to demonstrate state and event use with form handelling
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for performing CRUD operations with database jpaRepository then use spring data rest for reduce controller and service boilerplate code and use its own created crud operations, and implement springDoc for swagger api documentation
+then in same project practice spring rest api security by implementing basic restrictions on api call based on roles in which use varios method to define user credentials via inmemoryuserdetailmanager/userdetaimanager and also store password via plaintext or bcrypt encryption
+-Frontend :
+create project using form handeling and above concepts in which perform crud operation like add book, display book, edit book info and delete book to demonstrate state and event use with form handelling
+
+--Next target
+-Backend : spring mvc
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+05/02/2026
+--Backend
+ -started spring mvc section
+ -spring mvc with thymeleaf with css and html operations
+ -form data handeling via spring and thymeleaf
+ -GetMapping and PostMapping difference while use with spring mvc and html form 
+
+--Frontend
+ -complete data persistance with api request module
+ -lean about json server and how api work with it
+ -using json server update yesterday project with static CRUD to server managed CRUD
+ -learn about useEffect for persistance when we refresh page fetch all privious data
+ -replace all CRUD operation with axios api to manage data with json server
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(05/02/2026)---
+
+--Todays Progress
+-Backnd : spring course(50%)
+started spring mvc section
+spring mvc with thymeleaf with css and html operations
+form data handeling via spring and thymeleaf
+GetMapping and PostMapping difference while use with spring mvc and html form 
+-Frontend : react course(25%)
+complete data persistance with api request module
+lean about json server and how api work with it
+using json server update yesterday project with static CRUD to server managed CRUD
+learn about useEffect for persistance when we refresh page fetch all privious data
+replace all CRUD operation with axios api to manage data with json server
+
+--Project progress
+Define scema which require for this week's target (users, wholeSellers, products)
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for practicing thymeleaf like spring interacting with html via thymeleaf handeling form data and working with get post mapping for data debugging or hiding and also learn to use css with it
+-Frontend :
+update yesterday project with static CRUD to server managed CRUD using json server package and handle all data with axios api calls and also maintain persistance of page when refresh page
+
+--Next target
+-Backend : continue spring mvc
+-Frontend : starting context system and hooks
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+06/02/2026
+--Backend
+ -complet spring mvc section
+ -spring mvc with thymeleaf : (like like text-field, drop-down list, radio button, check-box)
+ -validators : learn about different validators its use, custom validator 
+
+--Frontend
+ -context system communication
+ -learn use of different hooks (like useState, useEffect, useContext)
+ -learn about side effect of hooks and its handelling
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(06/02/2026)---
+
+--Todays Progress
+-Backnd : spring course(55%)
+complet spring mvc section
+spring mvc with thymeleaf : (like like text-field, drop-down list, radio button, check-box)
+validators : learn about different validators its use, custom validator
+-Frontend : react course(28%)
+context system communication
+learn use of different hooks (like useState, useEffect, useContext)
+learn about side effect of hooks and its handelling
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for practicing thymeleaf with form dataBinding (like text-field, drop-down list, radio button, check-box) and handel data between frontend and backend
+create another springboot project to practicing validations like min, max, notnull, initBinder, pattern for regex. 
+-Frontend :
+create project using context based approch where instead of using props every time now use context communication to pass data using context and using diferent hooks (like useState, useEffect, useContext) perform crud operation
+
+--Next target
+-Backend : starting spring mvc security
+-Frontend : starting custom navigation and routing system
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+09/02/2026
+--Backend
+ -complete spring mvc crud section and create project to perform mvc crud operations 
+ -start spring mvc security section : initial configuration for spring security , securityfilterchain, custom login form using thymeleaf
+
+--Frontend
+ -start custom navigation section : button theory basics, children prop, etc.
+ -learn about tailwind css and explore it from official web
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(09/02/2026)---
+
+--Todays Progress
+-Backnd : spring course(62%)
+complete spring mvc crud section and create project to perform mvc crud operations 
+start spring mvc security section : initial configuration for spring security , securityfilterchain, custom login form using thymeleaf
+-Frontend : react course(35%)
+start custom navigation section : button theory basics, children prop, etc.
+learn about tailwind css and explore it from official web
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for practicing thymeleaf and perform crud operation using spring mvc standerd
+create another springboot project to practicing custom login form with spring security for restrinct direct access
+-Frontend :
+practice tailwind css  
+
+--Project progress
+create and modify backend apis and test it in postman
+start frontend part and review online available ui/layouts for getting idea about project ui
+
+--Next target
+-Backend : completing spring mvc security
+-Frontend : completing custom navigation and routing system
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+10/02/2026
+--Backend
+ -complete spring mvc security
+ -username/password authentication using thymeleaf library, role based access, role based content display, access denied page, jdbc authentication using plain-text/bcrypt password
+
+--Frontend
+ -custom component in custom navigation with using tailwind css and classnames library
+ -start state design process module from course 
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(10/02/2026)---
+
+--Todays Progress
+-Backend : spring course(68%)
+complete spring mvc security
+username/password authentication using thymeleaf library, role based access, role based content display, access denied page, jdbc authentication using plain-text/bcrypt password
+-Frontend : react course(39%)
+custom component in custom navigation with using tailwind css and classnames library
+start state design process module from course 
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project for practicing custom login form with spring security and thymeleaf in which create custome login form which check username password and authenticate user, implement role based access to prevent unauthorized access and also implement role based content delivery to show specific content to specific role contained user 
+-Frontend :
+create custom component using classnames and tailwind css library to use same component in different place with customized design  
+
+--Project progress
+test intigration of backend api to frontend and perform dynamic data flow between frontend and backend 
+
+--Next target
+-Backend : start jpa/hibernate advance mapping section from course
+-Frontend : completing state design process section from course
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+11/02/2026
+--Backend
+ -start advanced jpa mapping(OnetoOne mapping-uni and bi directional) 
+ -explore about jpa auto derived query methods
+
+--Frontend
+ -continue state design process module from course
+ -state design overview, conditionalrendering, inline event handeler, conditional icon rerendering 
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(11/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+start advanced jpa mapping(OnetoOne mapping-uni and bi directional) 
+ explore about jpa auto derived query methods
+-Frontend : react course
+continue state design process module from course
+state design overview, conditionalrendering, inline event handeler, conditional icon rerendering 
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing one of jpa advanced mapping type @OneToOne mapping and its uni and bi directional apporoach 
+-Frontend :
+practicing state design tipocs like state design overview, conditionalrendering, inline event handeler, conditional icon rerendering
+
+--Project progress
+complete some frontend bugs and start exception handelling in backend product module
+
+--Next target
+-Backend : continue jpa/hibernate advance mapping section from course
+-Frontend : completing state design process section from course
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+12/02/2026
+--Backend
+ -continue advanced jpa mapping(OnetoMany mapping uni directional)
+
+--Frontend
+ -complete state design process module 
+ -complete props and state design module
+ -event handelers in map, useRef hook for get reference of element, document wide click handelers
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(12/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+continue advanced jpa mapping(OnetoMany mapping uni directional) 
+-Frontend : react course
+complete state design process module 
+complete props and state design module
+event handelers in map, useRef hook for get reference of element, document wide click handelers
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing one of jpa advanced mapping type @OneToMany mapping and its uni directional apporoach 
+-Frontend :
+practicing props and state design tipocs like event handelers in map, useRef hook for get reference of element, document wide click handelers
+
+--Project progress
+find some changes and define next target workflow
+
+--Next target
+-Backend : continue jpa/hibernate advance mapping section from course
+-Frontend : starting navigatiions from course
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+13/02/2026
+--Backend
+ -Complete advanced jpa mapping
+ -OneToMany, ManyToMany mapping, lazy and eager fetching, unidirectional mapping  
+
+--Frontend
+ -starting Navigation section from course
+ -introduction about navigation, PushState function, forward/back button handelling, link styling 
+  
+--Require support
+ -None
+
+
+
+---Daily Progress(13/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+Complete advanced jpa mapping
+OneToMany, ManyToMany mapping, lazy and eager fetching, unidirectional mapping
+-Frontend : react course
+starting Navigation section from course
+introduction about navigation, PushState function, forward/back button handelling, link styling 
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing one of jpa advanced mapping type @OneToMany and @ManyToMany mapping and its uni directional apporoach with Eager and Lazy fetch cases
+-Frontend :
+practicing basic navigation related operations and handelling links
+
+--Project progress
+done some changes in existing code and starting impliment login section to enter dynamic users 
+
+--Next target
+-Backend : Starts AOP
+-Frontend : ReactDOM
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+16/02/2026
+--Backend
+ -practicing advanced mapping of hibernate/jpa  
+
+--Frontend
+ -complete Navigation section 
+ -complete portal with reactDom section 
+ -started data table section 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(16/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+practicing advanced mapping of hibernate/jpa
+-Frontend : react course
+complete Navigation section 
+complete portal with reactDom section 
+started data table section 
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing one of jpa advanced mapping and its uni directional apporoach with Eager and Lazy fetch cases and 
+-Frontend :
+practice navigation with reactdom and portals 
+
+--Project progress
+complete backend of authentication mechanism with registration and login 
+
+--Next target
+-Backend : continue AOP
+-Frontend : Data table
+-project: complete frontend for registration and login
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+17/02/2026
+--Backend
+ -start spring AOP section
+ -introduction to spring AOP, @Before advice, pointcut expressions
+
+--Frontend
+ -complete data table section : static table, dynamic table
+ -complete sorting section : basic sorting, sorting by comparator, sorting by localComparefor string and number
+ -complete custome hooks section : learn how to create own custom hooks 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(17/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+start spring AOP section
+introduction to spring AOP, @Before advice, pointcut expressions
+-Frontend : react course
+complete data table section : static table, dynamic table
+complete sorting section : basic sorting, sorting by comparator, sorting by localComparefor string and number
+complete custome hooks section : learn how to create own custom hooks
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing aop annotation @Before and diferent pointcut expressions with it.
+-Frontend :
+practice to making custome component then conversion of component to reusable custom hook 
+
+--Project progress
+start impliment frontend pages for registration and login 
+
+--Next target
+-Backend : continue AOP
+-Frontend : reducers in react
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+18/02/2026
+--Backend
+ -Do some changese in authentication and controller requests module in final project like fix some api routes, improve responce status, change some services  
+
+--Frontend
+ -complete reducers section
+ -Fix some bugs in final project  
+
+--Require support
+ -None
+
+
+
+---Daily Progress(18/02/2026)---
+
+--Todays Progress
+-Backend :
+Do some changese in authentication and controller requests module in final project like fix some api routes, improve responce status, change some services  
+-Frontend : react course
+complete reducers section
+Fix some bugs in final project
+
+--Project
+complete impliment frontend pages for registration and login 
+do some changes in backend api and services
+fix some fronend bugs like product toggeling issue, remove soft delete and implement hard delete
+
+--Next target
+-Backend : continue AOP
+-Frontend : start redux in react
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+19/02/2026
+--Backend
+ -continue Spring AOP rvice and practice pointcut expressions
+ -combining pointcuts, ordering aspects, read method augment with joinPoint
+
+--Frontend
+ -Started Redux toolkit
+ -Redux introduction, store creation using configureStore, slice creation for declaring reducers
+ -useDispatch and useSelector hook use in redux 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(19/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+continue Spring AOP rvice and practice pointcut expressions
+combining pointcuts, ordering aspects, read method augment with joinPoint
+-Frontend : react course
+Started Redux toolkit
+Redux introduction, store creation using configureStore, slice creation for declaring reducers
+useDispatch and useSelector hook use in redux
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing pointcut expressions with different combinations, combining pointcuts and ordering aspects
+-Frontend :
+React redux store creation and then use slices for defining reducers and perform basic operations using useDispatch and useSelector hooks
+
+--Project progress
+divide tasks for this week target and define scema current module 
+
+--Next target
+-Backend : continue AOP
+-Frontend : continue redux toolkit
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+20/02/2026
+--Backend
+ -continue Spring AOP 
+ -@AfterReturning, @AfterThrowing, @After and @Around advice
+
+--Frontend
+ -continue Redux toolkit and practiced it
+ -multiple state updates, manual action creation, use of extraReducer
+ -complete managing multiple slices section from course
+
+--Require support
+ -None
+
+
+
+---Daily Progress(20/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+continue Spring AOP 
+@AfterReturning, @AfterThrowing, @After and @Around advice
+-Frontend : react course
+continue Redux toolkit and practiced it
+multiple state updates, manual action creation, use of extraReducer
+complete managing multiple slices section from course 
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing @AfterReturning, @AfterThrowing, @After and @Around advice one by one try with different combination
+-Frontend :
+React redux implement multiple state updates, use extraReducers for handeling multiple state at ones and create another project for managing multipe slices practice 
+
+--Project progress
+define scema for targeted module and required functionality for this week module 
+
+--Next target
+-Backend : continue AOP
+-Frontend : continue redux toolkit
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+23/02/2026
+--Backend
+ -Complete Spring AOP 
+ -@Around advice with handle exception, rethrowing exception
+ -complete springboo 4 add on features
+ -updated dependancies, api versioning
+
+--Frontend
+ -revice redux store slices creation technique
+ -start interfacing with api using redux thinks section
+
+--Require support
+ -None
+
+
+
+---Daily Progress(23/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+Complete Spring AOP 
+@Around advice with handle exception, rethrowing exception
+complete springboo 4 add on features
+updated dependancies, api versioning
+-Frontend : react course
+revice redux store slices creation technique
+start interfacing with api using redux thinks section
+
+--Code Practice / Programs Implemented
+-Backend :
+create springboot project and practicing @Around advice with handle exception, rethrowi exception also implement aop concepts in demo project 
+-Frontend :
+React redux practice priveous learn concept redux store, slices state handelling
+
+--Project progress
+start backend for module and implement cart functionality
+
+--Next target
+-Frontend : continue redux toolkit
+-project: continue remain backend functionality and funtend part
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+24/02/2026
+--Backend
+ -continue remain backend work of final project (cart, order)
+
+--Frontend
+ -complete redux async thunks section
+ -making some changes in existing frontend code of final project
+
+--Require support
+ -None
+
+
+
+---Daily Progress(24/02/2026)---
+
+--Todays Progress
+-Backend : spring course
+continue remain backend work of final project
+-Frontend : react course
+complete redux async thunks section
+making some changes in existing frontend code of final project
+
+--Code Practice / Programs Implemented
+-Frontend :
+React redux practice async thunks for api request and handelling data flow and states
+
+--Project progress
+continue backend for module and complete cart functionality and started order functionality
+
+--Next target
+-Frontend : continue redux toolkit
+-project: start funtend part
+
+--Require support
+None
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+25/02/2026
+
+--Frontend
+ -complet redux toolkit query section
+ -RTK query API, difference between queries and mutation and its use case
+ -start typescript section
+ -types and type annotation, type interface, objects with interface, function types, interface extend
+
+--Require support
+ -None
+
+
+
+---Daily Progress(25/02/2026)---
+
+--Todays Progress
+-Frontend : react course
+complet redux toolkit query section
+RTK query API, difference between queries and mutation and its use case
+start typescript section
+types and type annotation, type interface, objects with interface, function types, interface extend
+
+--Code Practice / Programs Implemented
+-Frontend :
+React redux toolkit query practice with api generation and calling using RTK queries 
+
+--Project progress
+Work on order fnctionality
+
+--Next target
+-Frontend : continue typescript
+-project: define next module target
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+26/02/2026
+
+--Frontend
+ -complete typescript section
+ -optional property, type aliases, function generics, generics type constants
+ -create map clone using map api and implement search location on map functionality
+ -start react router section 
+ -react router introduction, navigation via link, navigations 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(26/02/2026)---
+
+--Todays Progress
+-Frontend : react course
+complete typescript section
+optional property, type aliases, function generics, generics type constants
+create map clone using map api and implement search location on map functionality
+start react router section 
+react router introduction, navigation via link, navigations 
+
+--Code Practice / Programs Implemented
+-Frontend :
+using React with tyescript make project of map clone 
+make another project for understanding react router and proper project pages navigation  
+
+--Next target
+-Frontend : continue react router
+-project: start work on next module target
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+27/02/2026
+
+--Frontend
+ -complete react router section: complete demo learning project for react router
+ -build basic multipage project for practice till learn react concepts and routing methodology
+
+--Require support
+ -None
+
+
+
+---Daily Progress(27/02/2026)---
+
+--Todays Progress
+-Frontend : react course
+complete react router section: complete demo learning project for react router
+build basic multipage project for practice till learn react concepts and routing methodology 
+
+--Code Practice / Programs Implemented
+-Frontend : 
+complete demo project for react router section learning
+make another project for evaluate react concepts like hooks, api, routing, custom components 
+
+--Next target
+-project: define scema for salesman management 
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+02/03/2026
+
+--backend
+ -continue project module backend
+ -encounter some bugs in order creation service and fixing them
+ -completin order creation service
+ -start order approval module backend  
+
+--Frontend
+ -complete basic multipage project for practice till learn react concepts and routing methodology
+
+--Require support
+ -None
+
+
+
+---Daily Progress(02/03/2026)---
+
+--Todays Progress
+-Backend:
+continue project module backend
+encounter some bugs in order creation service and fixing them
+completin order creation service
+start order approval module backend  
+-Frontend : react course
+complete basic multipage project for practice till learn react concepts and routing methodology
+
+--Code Practice / Programs Implemented
+-Backend:
+encounter some bugs on existed order creation module and fixing thoes bugs 
+then continued target module for order approval
+-Frontend : 
+complete pending peoject in which implemet sorting searching functionality
+
+--Next target
+-project: complete order approval module for wholesaler
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+03/03/2026
+
+--backend
+ -work on order approval functionality 
+ -learn about jwt tokens  
+
+--Frontend
+ -work on order aproval module make skeleton structure for it
+
+--Require support
+ -None
+
+
+
+---Daily Progress(03/03/2026)---
+
+--Todays Progress
+-Backend:
+work on order approval functionality 
+learn about jwt toke  
+-Frontend : react course
+work on order aproval module make skeleton structure for it
+
+--Code Practice / Programs Implemented
+-Backend:
+order approval apis for aprove order or reject order
+-Frontend : 
+start frontend part and make basic structure for module
+
+--Next target
+-project: complete order approval module frontend
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+05/03/2026
+
+--backend
+ -continue more about jwt token based authentication  
+ -make authentication system project backend for practice
+
+--Frontend
+ -practicing react integration with springboot by creating frontend for authentication system and connect with backend.
+
+--Require support
+ -None
+
+
+
+---Daily Progress(05/03/2026)---
+
+--Todays Progress
+-Backend:
+continue more about jwt token based authentication  
+make authentication system project backend for practice  
+-Frontend : react course
+practicing react integration with springboot by creating frontend for authentication system and connect with backend.
+
+--Code Practice / Programs Implemented
+-Backend:
+practice jwt token based authentication in which create jwt token and validate it for authentication in all the protected api requests for future usage in final project
+-Frontend : 
+use react for create frontend for authentication system project and connect with backend for future usage in final project
+
+--Next target
+-project: start frontend for order approval module
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+06/03/2026
+
+--backend
+ -complete jwt token with token validation.
+
+--Frontend
+ -start frontend of order approval module for wholesaler
+
+--Require support
+ -None
+
+
+
+---Daily Progress(06/03/2026)---
+
+--Todays Progress
+-Backend:
+complete jwt token with token validation.  
+-Frontend : react course
+start frontend of order approval module for wholesaler start implementing code in scaleton structure of module
+implement fetching order functionality view for wholesaler to see all orders 
+
+--Code Practice / Programs Implemented
+-Frontend : 
+In rms project create order fetching view for wholesaler to see all the order
+
+--Next target
+-project: implement order approve view and filter orders view
+
+--Require support
+None
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+09/03/2026
+
+--Frontend
+ -continue frontend of order approval module for wholesaler
+ -create api call methods to request backend apis
+ -create components for page like status cards, tables etc. 
+
+--Require support
+ -None
+
+
+
+---Daily Progress(09/03/2026)---
+
+--Todays Progress  
+-Frontend : react course
+continue frontend of order approval module for wholesaler
+create api call methods to request backend apis
+create components for page like status cards, tables etc.  
+
+--Code Practice 
+-Frontend : 
+In rms project continue order fetching view for wholesaler in which create components like order request table, status cards, use in final page and create api call methods to perform operation in backend and create custom hook for managing thoes api calls in one seperate file. 
+
+--Next target
+-project: continue order approval module frontend and combile all custom components and functionality in final page.
+
+--Require support
+None
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+10/03/2026
+
+--Frontend
+ -continue frontend of order approval module for wholesaler
+ -complete all remaining components for module like orderfilter, orderstatus
+ -combine all components in order approval page and create another page for order details to manage order and its status 
+
+--Require support
+ -dought regarding image file to link convergen
+
+
+
+---Daily Progress(10/03/2026)---
+
+--Todays Progress  
+-Frontend : 
+continue frontend of order approval module for wholesaler
+complete all remaining components for module like orderfilter, orderstatus
+combine all components in order approval page and create another page for order details to manage order and its status   
+
+--Code Practice 
+-Frontend : 
+In rms project continue order approval for wholesaler frontend in which complete remaining components like order filter using which order filter by its status/amount/dates and orderstatus component for representing status icons 
+Then merge all components in order pages for showing all orders and statistics of orders
+Also create one page for orderDetails which open from individual orders and desplay all details of order and wholesaler can manage status from here.  
+
+--Next target
+-project: start work on salsman module and creation of salesman profile by wholesaler 
+
+--Require support
+dought regarding image file to link convergen
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+11/03/2026
+
+--Backend
+ -start salsman creation module and create entity for salsman and its registration functionality create route for wholesaler to add salsman 
+
+--additional
+ -get some git conflicts then resolve it  
+
+--Require support
+ -dought regarding image file to link convergen
+
+
+
+---Daily Progress(11/03/2026)---
+
+--Todays Progress  
+-Backend
+start salsman creation module and create entity for salsman and its registration functionality create route for wholesaler to add salsman 
+-additional
+get some git conflicts then resolve it  
+
+--Code Practice 
+today create salsman entity and its dtos for operation then create some changies  for salsman registration 
+create route for salsman registration in wholesaler view
+
+--Next target
+-project: continue work on salsman module and creation of salesman profile by wholesaler 
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+12/03/2026
+
+--Backend
+ -make suggested changies like do all security filtercahin and cors configuration crom properties file instead of hardcoded string 
+ -make seperate constant files for stroring constants and messagies instead of hardcoded strings 
+ -give proper return responces in all api endpoints where status is not properly given
+ -continue salesman module for wholesaler and start implementing business logic for salesman    
+
+--Require support
+ -none
+
+
+
+---Daily Progress(12/03/2026)---
+
+--Todays Progress  
+-Backend
+make suggested changies like do all security filtercahin and cors configuration crom properties file instead of hardcoded string 
+make seperate constant files for stroring constants and messagies instead of hardcoded strings 
+give proper return responces in all api endpoints where status is not properly given
+continue salesman module for wholesaler and start implementing business logic for salesman
+
+--Code Practice 
+continue salesman module and create some services like registration of salesman, getallsalesman, deletesalesman
+fixing some part of code suggested in code review like use propertyfile for configuration, make constants file to store strings, return proper responce status in all endpoints. 
+
+--Next target
+-project: continue work on salsman module and start salesman services 
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+13/03/2026
+
+--Backend
+ -continue salesman module in which complete salsesman side services
+ -find some changies in local seller module to merge all api flow to each other and solve with teammate.
+
+--Frontend
+ -create skeleton structure for salesman view.    
+
+--Require support
+ -none
+
+
+
+---Daily Progress(13/03/2026)---
+
+--Todays Progress  
+-Backend
+continue salesman module in which complete salsesman side services
+find some changies in local seller module to merge all api flow to each other and solve with teammate.
+--Frontend
+create skeleton structure for salesman view. 
+
+--Code Practice 
+continue salesman module and create some services like get assign localseller, get order, update status, etc.
+find some changies for local seller model to work with other api perfectely for edge cases disscuss with teammate and start work.
+
+--Next target
+-project: continue work on salsman module and start salesman frontend 
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+16/03/2026
+
+--Backend
+ -test created backend api and fix the accured bugs.
+
+--Frontend
+ -complete wholesaler side salsesman management view where wholesaler can create, update salesman, toggle salesman status, assign local seller to wholesaler, romove assignmen.    
+
+--Require support
+ -none
+
+
+
+---Daily Progress(16/03/2026)---
+
+--Todays Progress  
+-Backend
+test created backend api and fix the accured bugs.
+--Frontend
+complete wholesaler side salsesman management view where wholesaler can create, update salesman, toggle salesman status, assign local seller to wholesaler, romove assignmen.     
+
+--Code Practice 
+test all created backend api and fix bugs
+then start wholesaler view to manage salesman for that create seperate component to handle functinality seperately and merge them in page skeleton structure.
+
+--Next target
+-project: continue work on salesman profile frontend view
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+17/03/2026
+
+--Backend
+ -do some minor changies for accurate frontend view
+
+--Frontend
+ -complete salsesman view where salesman can see its dashboared, statistics, all assing local seller, assign local seller order, all order, mark order as delivery or update status for delivery failure
+
+--Require support
+ -none
+
+
+
+---Daily Progress(17/03/2026)---
+
+--Todays Progress  
+-Backend
+do some minor changies for accurate frontend view
+--Frontend
+complete salsesman view where salesman can see its dashboared, statistics, all assing local seller, assign local seller order, all order, mark order as delivery or update status for delivery failure
+
+--Code Practice 
+In backend do some minor changies for accurate frontend view where update some dto and mapping for additional field to show in frontend
+In frontend complete salsesman view where salesman can see its dashboared, statistics, all assing local seller, assign local seller order, all order, mark order as delivery or update status for delivery failure for which create some common component to reuse and create seperate page for required functionality.
+
+--Next target
+-project: start work on notification module.
+
+--Require support
+none
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+18/03/2026
+
+--Backend
+ -setup project for demo enable all functionality and module for demo
+ -Do reaserch about admin responsibility for user and app management and about payment getway for place order
+
+--Frontend
+ -check needs for implementing apyment getway for frontend side
+
+--Require support
+ -none
+
+
+
+---Daily Progress(18/03/2026)---
+
+--Todays Progress  
+-Backend
+setup project for demo enable all functionality and module for demo
+Do reaserch about admin responsibility for user and app management and about payment getway for place order
+
+--Frontend
+check needs for implementing apyment getway for frontend side
+
+--Next target
+-project: start work on salesman view improvement
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+19/03/2026
+
+--Backend
+ -do R&D on payment gateway and its implimentation
+ -define some additional changies on local seller module and view for smooth experience
+
+--Frontend
+ -refector code and remove some unnecessary things from code
+
+--Require support
+ -none
+
+
+
+---Daily Progress(19/03/2026)---
+
+--Todays Progress  
+-Backend
+do R&D on payment gateway and its implimentation
+define some additional changies on local seller module and view for smooth experience
+
+--Frontend
+refector code and remove some unnecessary things from code
+
+--Next target
+-project: start work on notificatio system
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+20/03/2026
+
+--Backend
+ -work on invoice generation that how invoice pdf generate from data 
+ -addition on authentication syatem add forget password functionality
+
+--Frontend
+ -review open source invoice template for ui for refference
+
+--Require support
+ -none
+
+
+
+---Daily Progress(20/03/2026)---
+
+--Todays Progress  
+-Backend
+work on invoice generation that how invoice pdf generate from data 
+addition on authentication syatem add forget password functionality
+
+--Frontend
+review open source invoice template for ui for refference
+
+--Next target
+-project: implement invoce generation functionality
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+23/03/2026
+
+--Backend
+ -work on forget password functionality 
+ -complete invoice module inwhich after delivery the invoice generated and local seller download invoice file of order and also se list of invoice with status
+
+--Frontend
+ -create ui for forget password layout
+ -complete invoice module frontend like to create invoice history page from where user can downloading invoice 
+
+--Require support
+ -none
+
+
+
+---Daily Progress(23/03/2026)---
+
+--Todays Progress  
+-Backend
+work on forget password functionality 
+complete invoice module inwhich after delivery the invoice generated and local seller download invoice file of order and also se list of invoice with status
+
+--Frontend
+create ui for forget password layout
+complete invoice module frontend like to create invoice history page from where user can downloading invoice 
+
+--Next target
+-project: work on order module
+
+--Require support
+none
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+24/03/2026
+--Backend
+ -make some changies for connecting order and invoice module like when salesman mark order as delvered then the order completed and create an invoice instance for invoice download functionality
+
+--Frontend
+ -complete order module frontend in which user can place order after checkout cart items, see all orders, filter them and delete them 
+
+--Require support
+ -none
+
+
+
+---Daily Progress(24/03/2026)---
+
+--Todays Progress  
+
+--Backend
+make some changies for connecting order and invoice module like when salesman mark order as delvered then the order completed and create an invoice instance for invoice download functionality
+
+--Frontend
+complete order module frontend in which user can place order after checkout cart items, see all orders, filter them and delete them 
+
+--Next target
+-project: give final polish and fiishing touch to project enhance ui where needed
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+25/03/2026
+--Backend
+ -do some changies in cart module to sync with frontend
+ -do some reserch on payment gateway and its implimenttion 
+ -define some design and finalise the order generation approch 
+
+--Frontend
+ -refine the cart page for eliminating error 
+ -finalise some ui changies to give finishing touch 
+
+--Require support
+ -none
+
+
+
+---Daily Progress(25/03/2026)---
+
+--Todays Progress  
+
+--Backend
+do some changies in cart module to sync with frontend
+do some reserch on payment gateway and its implimenttion 
+define some design and finalise the order generation approch
+
+--Frontend
+refine the cart page for eliminating error 
+finalise some ui changies to give finishing touch
+
+--Additional
+do some reserch about admin functionality to handle user and how it can solve user queries and about admin access scope.
+
+--Next target
+-project: payment gateway and zonewise product showing to localseller
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+26/03/2026
+--Backend
+ -start work on location based suggestion module
+ -change some field for registration of local seller to add located city and state for product recommendation and product list
+ -create service city module for wholealer to decide in which area wholesaler could be availabele to supply  
+
+--Frontend
+ -edit registration page for enter city and state
+ -make srving city module page for wholesaler to manage crevice city
+
+--Require support
+ -none
+
+
+
+---Daily Progress(26/03/2026)---
+
+--Todays Progress  
+
+--Backend
+start work on location based suggestion module
+change some field for registration of local seller to add located city and state for product recommendation and product list
+create service city module for wholealer to decide in which area wholesaler could be availabele to supply  
+
+--Frontend
+edit registration page for enter city and state
+make srving city module page for wholesaler to manage crevice city
+
+--Next target
+-project: payment gateway and zonewise product showing to localseller
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+27/03/2026
+--Backend
+ -complete locatio based product showing to local seller
+
+--Frontend
+ -complete product show ui for frontend of local seller and fix some redundant code
+
+--Require support
+ -none
+
+
+
+---Daily Progress(27/03/2026)---
+
+--Todays Progress  
+
+--Backend
+complete locatio based product showing to local seller
+
+--Frontend
+complete product show ui for frontend of local seller and fix some redundant code
+
+--Next target
+-project: payment gateway 
+
+--Require support
+none
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+30/03/2026
+--Backend
+ -implement payment gateway for order place functionality and payment statestics for localseller 
+
+--Frontend
+ -update order checkout page for pre fill delivery address and implement razorpay in order place functionality and complete payment statistic page for local seller 
+
+--Require support
+ -none
+
+
+
+---Daily Progress(30/03/2026)---
+
+--Todays Progress  
+
+--Backend
+implement payment gateway for order place functionality and payment statestics for localseller 
+
+--Frontend
+update order checkout page for pre fill delivery address and implement razorpay in order place functionality and complete payment statistic page for local seller 
+
+--Next target
+-project: complete remain functionality of payment gateway 
+
+--Require support
+none
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+31/03/2026
+--Backend
+ -fixex some backend file to continue with payment handelling for COD and online payment
+ -start admin module backend for portal 
+
+--Frontend
+ -create payment records page for wholesaler 
+ -fix invoice page filters fr wholesaler
+ -fix placing order functionality that at a time local seller order only one wholesalrs product
+ -maintain payment flow for COD and online payment for local seller and salesman for collecting payment indication
+
+--Require support
+ -none
+
+
+
+---Daily Progress(31/03/2026)---
+
+--Todays Progress  
+
+--Backend
+fixex some backend file to continue with payment handelling for COD and online payment
+start admin module backend for portal
+
+--Frontend
+create payment records page for wholesaler 
+fix invoice page filters fr wholesaler
+fix placing order functionality that at a time local seller order only one wholesalrs product
+maintain payment flow for COD and online payment for local seller and salesman for collecting payment indication
+
+--Next target
+-project: continue admin module and its services 
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+01/04/2026
+--Backend
+ -start admin module and complete dashboard statistics, user managemet, and payment history services functionality
+
+--Frontend
+ -comlete admin dashboard, user management page and payment history page
+
+--Require support
+ -none
+
+
+
+---Daily Progress(01/04/2026)---
+
+--Todays Progress  
+
+--Backend
+start admin module and complete dashboard statistics, user managemet, and payment history services functionality
+
+--Frontend
+comlete admin dashboard, user management page and payment history page
+
+--Next target
+-project: continue admin module and its services 
+
+--Require support
+none
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+02/04/2026
+--Backend
+ -in payment history create userwiser payment history for localseller and wholesaler and for salesman create payment collection history functinality 
+
+--Frontend
+ -create payment spevofic changies for userwise payments history retrival 
+ -create salesman collection page for payment collection history and its detals
+
+--Require support
+ -none
+
+
+
+---Daily Progress(02/04/2026)---
+
+--Todays Progress  
+
+--Backend
+in payment history create userwiser payment history for localseller and wholesaler and for salesman create payment collection history functinality 
+
+--Frontend
+create payment spevofic changies for userwise payments history retrival 
+create salesman collection page for payment collection history and its detals
+
+--Next target
+-project: continue admin module and its services user action logs
+
+--Require support
+none
