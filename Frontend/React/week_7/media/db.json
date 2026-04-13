@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Marguerite Reynolds",
+      "id": 2
+    },
+    {
+      "name": "Carlos Franey",
+      "id": 3
+    },
+    {
+      "name": "Gordon Thompson",
+      "id": 4
+    },
+    {
+      "name": "Kenneth Roob",
+      "id": 5
+    },
+    {
+      "name": "Lucy Sipes",
+      "id": 6
+    },
+    {
+      "name": "Rachael Hermiston",
+      "id": 7
+    },
+    {
+      "name": "Alton Larkin",
+      "id": 8
+    }
+  ],
+  "albums": [],
+  "photos": []
+}

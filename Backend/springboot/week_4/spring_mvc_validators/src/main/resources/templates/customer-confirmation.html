@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Confirmation</title>
+</head>
+<body>
+  The Customer Is Confirmed
+  First name : <span th:text="${customer.firstName}"></span>
+  <br>
+  Last name : <span th:text="${customer.lastName}"></span>
+  <br>
+  Free Passes : <span th:text="${customer.feePases}"></span>
+  <br>
+  Postal Code : <span th:text="${customer.postalCode}"></span>
+  <br>
+  Course Code : <span th:text="${customer.courseCode}"></span>
+</body>
+</html>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "icon": "FaMapMarkerAlt",
+    "title": "Address",
+    "details": "123 WorldAtlas St, Global City, Earth"
+  },
+  {
+    "id": 2,
+    "icon": "FaPhoneAlt",
+    "title": "Phone",
+    "details": "+1 (555) 123-4567"
+  },
+  {
+    "id": 3,
+    "icon": "FaEnvelope",
+    "title": "Email",
+    "details": "contact@worldatlas.com"
+  },
+  {
+    "id": 4,
+    "icon": "FaFacebookF",
+    "title": "Facebook",
+    "details": "facebook.com/worldatlas"
+  },
+  {
+    "id": 5,
+    "icon": "FaTwitter",
+    "title": "Twitter",
+    "details": "twitter.com/worldatlas"
+  },
+  {
+    "id": 6,
+    "icon": "FaInstagram",
+    "title": "Instagram",
+    "details": "instagram.com/worldatlas"
+  }
+]

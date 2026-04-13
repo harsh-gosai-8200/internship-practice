@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Form</title>
+    <style>
+        .error{color: red}
+    </style>
+</head>
+<body>
+<form th:action="@{/processForm}" th:object="${customer}" method="post">
+    First Name : <input type="text" th:field="*{firstName}" placeholder="First Name">
+    <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}" class="error"></span>
+    <br>
+    Last Name : <input type="text" th:field="*{lastName}" placeholder="Last Name">
+    <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}" class="error"></span>
+    <br>
+    Free Passes : <input type="text" th:field="*{feePases}" placeholder="Free Passes">
+    <span th:if="${#fields.hasErrors('feePases')}" th:errors="*{feePases}" class="error"></span>
+    <br>
+    Postal Code : <input type="text" th:field="*{postalCode}" placeholder="Postal Code">
+    <span th:if="${#fields.hasErrors('postalCode')}" th:errors="*{postalCode}" class="error"></span>
+    <br>
+    Course Code : <input type="text" th:field="*{courseCode}" placeholder="Course Code">
+    <span th:if="${#fields.hasErrors('courseCode')}" th:errors="*{courseCode}" class="error"></span>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
